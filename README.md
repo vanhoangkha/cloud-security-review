@@ -473,6 +473,7 @@ Phase 4: Advanced (Week 7-8)
 ### Learning Platforms
 - [AWS Security Workshops](https://github.com/aws-samples/aws-security-workshops)
 - [Azure Security Labs](https://github.com/Azure/Azure-Security-Center)
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - an open source (GPL-3.0) autonomous AI penetration testing platform for web, API, Active Directory and Kubernetes.
 - [GKE Security Scenarios](https://github.com/GoogleCloudPlatform/gke-security-scenarios-demo)
 - [HackTricks Cloud](https://cloud.hacktricks.xyz/)
 
