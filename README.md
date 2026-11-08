@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Awesome Cloud Security - Complete Review
+# Awesome Cloud Security - Complete Review
 
 [![GitHub stars](https://img.shields.io/github/stars/vanhoangkha/cloud-security-review?style=social)](https://github.com/vanhoangkha/cloud-security-review/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,58 +9,58 @@
 
 **Comprehensive review and analysis of cloud security tools for AWS, Azure, GCP & Multi-Cloud environments**
 
-[Overview](#-overview) •
-[Multi-Cloud Tools](#-multi-cloud-security-tools) •
-[AWS](#-aws-security) •
-[Azure](#-azure-security) •
-[GCP](#-gcp-security) •
-[Kubernetes](#-kubernetes--container-security) •
-[Learning Path](#-learning-path)
+[Overview](#overview) •
+[Multi-Cloud Tools](#multi-cloud-security-tools) •
+[AWS](#aws-security) •
+[Azure](#azure-security) •
+[GCP](#gcp-security) •
+[Kubernetes](#kubernetes--container-security) •
+[Learning Path](#learning-path)
 
 </div>
 
 ---
 
-## 📖 Overview
+## Overview
 
 This repository provides an in-depth review of [NextSecurity/Awesome-Cloud-Security](https://github.com/NextSecurity/Awesome-Cloud-Security) with additional multi-cloud resources and tools.
 
-### 🎯 Target Audience
+### Target Audience
 
 | Role | Fit | Why |
 |:-----|:---:|:----|
-| Cloud Security Engineer | ⭐⭐⭐⭐⭐ | Comprehensive audit & compliance tools |
-| Penetration Tester | ⭐⭐⭐⭐⭐ | Extensive offensive security toolkit |
-| DevSecOps Engineer | ⭐⭐⭐⭐⭐ | IaC scanning & CI/CD integration |
-| Security Architect | ⭐⭐⭐⭐⭐ | Multi-cloud architecture patterns |
-| SRE/Platform Engineer | ⭐⭐⭐⭐ | Infrastructure security automation |
+| Cloud Security Engineer |  | Comprehensive audit & compliance tools |
+| Penetration Tester |  | Extensive offensive security toolkit |
+| DevSecOps Engineer |  | IaC scanning & CI/CD integration |
+| Security Architect |  | Multi-cloud architecture patterns |
+| SRE/Platform Engineer |  | Infrastructure security automation |
 
 ---
 
-## 🌐 Multi-Cloud Security Tools
+## Multi-Cloud Security Tools
 
 ### Cross-Platform Security Assessment
 
 | Tool | AWS | Azure | GCP | Description |
 |:-----|:---:|:-----:|:---:|:------------|
-| [ScoutSuite](https://github.com/nccgroup/ScoutSuite) | ✅ | ✅ | ✅ | Multi-cloud security auditing |
-| [Prowler](https://github.com/prowler-cloud/prowler) | ✅ | ✅ | ✅ | Security best practices assessment |
-| [CloudSploit](https://github.com/aquasecurity/cloudsploit) | ✅ | ✅ | ✅ | Cloud security configuration checks |
-| [Steampipe](https://github.com/turbot/steampipe) | ✅ | ✅ | ✅ | SQL-based cloud queries |
-| [CloudQuery](https://github.com/cloudquery/cloudquery) | ✅ | ✅ | ✅ | Cloud asset inventory |
-| [Cartography](https://github.com/lyft/cartography) | ✅ | ✅ | ✅ | Infrastructure graph analysis |
-| [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) | ✅ | ✅ | ✅ | Rules engine for cloud governance |
+| [ScoutSuite](https://github.com/nccgroup/ScoutSuite) | Yes | Yes | Yes | Multi-cloud security auditing |
+| [Prowler](https://github.com/prowler-cloud/prowler) | Yes | Yes | Yes | Security best practices assessment |
+| [CloudSploit](https://github.com/aquasecurity/cloudsploit) | Yes | Yes | Yes | Cloud security configuration checks |
+| [Steampipe](https://github.com/turbot/steampipe) | Yes | Yes | Yes | SQL-based cloud queries |
+| [CloudQuery](https://github.com/cloudquery/cloudquery) | Yes | Yes | Yes | Cloud asset inventory |
+| [Cartography](https://github.com/lyft/cartography) | Yes | Yes | Yes | Infrastructure graph analysis |
+| [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian) | Yes | Yes | Yes | Rules engine for cloud governance |
 
 ### Infrastructure as Code (IaC) Security
 
 | Tool | Terraform | CloudFormation | ARM | Pulumi | K8s | Description |
 |:-----|:---------:|:--------------:|:---:|:------:|:---:|:------------|
-| [Checkov](https://github.com/bridgecrewio/checkov) | ✅ | ✅ | ✅ | ✅ | ✅ | Static analysis for IaC |
-| [tfsec](https://github.com/aquasecurity/tfsec) | ✅ | ❌ | ❌ | ❌ | ❌ | Terraform security scanner |
-| [Terrascan](https://github.com/tenable/terrascan) | ✅ | ✅ | ✅ | ❌ | ✅ | Policy as code |
-| [KICS](https://github.com/Checkmarx/kics) | ✅ | ✅ | ✅ | ✅ | ✅ | Find vulnerabilities in IaC |
-| [Trivy](https://github.com/aquasecurity/trivy) | ✅ | ✅ | ❌ | ❌ | ✅ | Comprehensive security scanner |
-| [Snyk IaC](https://snyk.io/product/infrastructure-as-code-security/) | ✅ | ✅ | ✅ | ✅ | ✅ | Developer-first IaC security |
+| [Checkov](https://github.com/bridgecrewio/checkov) | Yes | Yes | Yes | Yes | Yes | Static analysis for IaC |
+| [tfsec](https://github.com/aquasecurity/tfsec) | Yes | No | No | No | No | Terraform security scanner |
+| [Terrascan](https://github.com/tenable/terrascan) | Yes | Yes | Yes | No | Yes | Policy as code |
+| [KICS](https://github.com/Checkmarx/kics) | Yes | Yes | Yes | Yes | Yes | Find vulnerabilities in IaC |
+| [Trivy](https://github.com/aquasecurity/trivy) | Yes | Yes | No | No | Yes | Comprehensive security scanner |
+| [Snyk IaC](https://snyk.io/product/infrastructure-as-code-security/) | Yes | Yes | Yes | Yes | Yes | Developer-first IaC security |
 
 ### Multi-Cloud CSPM (Cloud Security Posture Management)
 
@@ -103,7 +103,7 @@ graph TB
 
 ---
 
-## 🟠 AWS Security
+## AWS Security
 
 ### Native Security Services
 
@@ -176,7 +176,7 @@ graph TB
 
 ---
 
-## 🔵 Azure Security
+## Azure Security
 
 ### Native Security Services
 
@@ -250,7 +250,7 @@ graph TB
 
 ---
 
-## 🟢 GCP Security
+## GCP Security
 
 ### Native Security Services
 
@@ -321,20 +321,20 @@ graph TB
 
 ---
 
-## ☸️ Kubernetes & Container Security
+## Kubernetes & Container Security
 
 ### Multi-Cloud Kubernetes (EKS/AKS/GKE)
 
 | Tool | EKS | AKS | GKE | Description |
 |:-----|:---:|:---:|:---:|:------------|
-| [Falco](https://github.com/falcosecurity/falco) | ✅ | ✅ | ✅ | Runtime security |
-| [Trivy](https://github.com/aquasecurity/trivy) | ✅ | ✅ | ✅ | Vulnerability scanner |
-| [kube-bench](https://github.com/aquasecurity/kube-bench) | ✅ | ✅ | ✅ | CIS benchmark |
-| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | ✅ | ✅ | ✅ | Penetration testing |
-| [Kubescape](https://github.com/kubescape/kubescape) | ✅ | ✅ | ✅ | Security platform |
-| [mkit](https://github.com/darkbitio/mkit) | ✅ | ✅ | ✅ | Managed K8s inspection |
-| [Polaris](https://github.com/FairwindsOps/polaris) | ✅ | ✅ | ✅ | Best practices |
-| [Popeye](https://github.com/derailed/popeye) | ✅ | ✅ | ✅ | Cluster sanitizer |
+| [Falco](https://github.com/falcosecurity/falco) | Yes | Yes | Yes | Runtime security |
+| [Trivy](https://github.com/aquasecurity/trivy) | Yes | Yes | Yes | Vulnerability scanner |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) | Yes | Yes | Yes | CIS benchmark |
+| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | Yes | Yes | Yes | Penetration testing |
+| [Kubescape](https://github.com/kubescape/kubescape) | Yes | Yes | Yes | Security platform |
+| [mkit](https://github.com/darkbitio/mkit) | Yes | Yes | Yes | Managed K8s inspection |
+| [Polaris](https://github.com/FairwindsOps/polaris) | Yes | Yes | Yes | Best practices |
+| [Popeye](https://github.com/derailed/popeye) | Yes | Yes | Yes | Cluster sanitizer |
 
 ### Container Security
 
@@ -357,7 +357,7 @@ graph TB
 
 ---
 
-## 🔐 Serverless Security
+## Serverless Security
 
 ### Multi-Cloud Serverless
 
@@ -379,9 +379,9 @@ graph TB
 
 ---
 
-## 📚 Learning Path
+## Learning Path
 
-### 🔵 Blue Team Path
+### Blue Team Path
 
 ```
 Phase 1: Foundations (Week 1-2)
@@ -409,7 +409,7 @@ Phase 4: Advanced (Week 7-8)
 └── Security as Code
 ```
 
-### 🔴 Red Team Path
+### Red Team Path
 
 ```
 Phase 1: Reconnaissance (Week 1-2)
@@ -439,24 +439,24 @@ Phase 4: Advanced (Week 7-8)
 
 ---
 
-## 📊 Comparison Matrix
+## Comparison Matrix
 
 ### Security Tools by Cloud
 
 | Tool | AWS | Azure | GCP | K8s | IaC | Type |
 |:-----|:---:|:-----:|:---:|:---:|:---:|:-----|
-| ScoutSuite | ✅ | ✅ | ✅ | ❌ | ❌ | Audit |
-| Prowler | ✅ | ✅ | ✅ | ❌ | ❌ | Audit |
-| Checkov | ✅ | ✅ | ✅ | ✅ | ✅ | IaC |
-| Trivy | ✅ | ❌ | ❌ | ✅ | ✅ | Scanner |
-| Pacu | ✅ | ❌ | ❌ | ❌ | ❌ | Pentest |
-| MicroBurst | ❌ | ✅ | ❌ | ❌ | ❌ | Pentest |
-| Falco | ✅ | ✅ | ✅ | ✅ | ❌ | Runtime |
-| Cloud Custodian | ✅ | ✅ | ✅ | ❌ | ❌ | Governance |
+| ScoutSuite | Yes | Yes | Yes | No | No | Audit |
+| Prowler | Yes | Yes | Yes | No | No | Audit |
+| Checkov | Yes | Yes | Yes | Yes | Yes | IaC |
+| Trivy | Yes | No | No | Yes | Yes | Scanner |
+| Pacu | Yes | No | No | No | No | Pentest |
+| MicroBurst | No | Yes | No | No | No | Pentest |
+| Falco | Yes | Yes | Yes | Yes | No | Runtime |
+| Cloud Custodian | Yes | Yes | Yes | No | No | Governance |
 
 ---
 
-## 📖 Resources
+## Resources
 
 ### Documentation
 | Cloud | Security Docs | Best Practices |
@@ -487,11 +487,11 @@ Phase 4: Advanced (Week 7-8)
 
 ---
 
-## ⭐ Rating
+## Rating
 
 <div align="center">
 
-### Overall: 4.5/5 ⭐⭐⭐⭐½
+### Overall: 4.5/5 ½
 
 </div>
 
@@ -505,13 +505,13 @@ Phase 4: Advanced (Week 7-8)
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) for details.
 
@@ -519,9 +519,9 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**⭐ Star this repo if you find it helpful!**
+**Star this repo if you find it helpful!**
 
-Made with ❤️ by [vanhoangkha](https://github.com/vanhoangkha)
+Made with by [vanhoangkha](https://github.com/vanhoangkha)
 
 [Report Bug](https://github.com/vanhoangkha/cloud-security-review/issues) · [Request Feature](https://github.com/vanhoangkha/cloud-security-review/issues)
 
